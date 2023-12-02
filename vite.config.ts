@@ -9,7 +9,8 @@ export default defineConfig({
     vue(),
   ],
   build: {
-    assetsDir: '/compouse-to-shell/'
+    outDir: 'dist',
+    assetsDir: 'compouse-to-shell/'
   },
   resolve: {
     alias: {

@@ -32,6 +32,7 @@ jobs:
         run: |
           npm install
           npm run-script build
+          mv ./dist/compouse-to-shell/* ./dist/
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Build with Jekyll
